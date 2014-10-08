@@ -24,7 +24,7 @@
   <div id="leaflet-map"></div>
   <script>
     var map = L.map('leaflet-map').setView([40.4358, -79.9877], 13);
-    L.tileLayer('http://b.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg').addTo(map);
     L.marker([40.4399, -79.9920]).bindPopup("NACIS 2014").addTo(map);
     </script>
 </body>
